@@ -28,7 +28,7 @@ rev = "a4185da5659d8d299d34e1bb2515ff1f7e32a20a"
 [dependencies.sui_extensions]
 git = "https://github.com/yvonnezhangc/stablecoin-sui.git"
 subdir = "packages/sui_extensions"
-rev = "3bfc3a42807928d426868ca78fbd2cc9675d8cde"
+rev = "mainnet"
 
 [addresses]
 stablecoin = "0xecf47609d7da919ea98e7fd04f6e0648a0a79b337aaad373fa37aac8febf19c8"
