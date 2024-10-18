@@ -2,7 +2,7 @@
 
 [move]
 version = 2
-manifest_digest = "6241BCC3ECEB3F37DC54B2F9DFCAC10D0A1A604BD03E0DF4143F28D8D41CE638"
+manifest_digest = "9FDFC6BE1B864381E88691124522926A8A1A03E4B99E5BDD9A60D5B213963FD0"
 deps_digest = "060AD7E57DFB13104F21BE5F5C3759D03F0553FC3229247D9A7A6B45F50D03A3"
 dependencies = [
   { name = "Sui" },
@@ -24,7 +24,7 @@ dependencies = [
 
 [[move.package]]
 name = "stablecoin"
-source = { local = "../stablecoin" }
+source = { git = "https://github.com/yvonnezhangc/stablecoin-sui.git", rev = "testnet", subdir = "packages/stablecoin" }
 
 dependencies = [
   { name = "Sui" },
@@ -33,7 +33,7 @@ dependencies = [
 
 [[move.package]]
 name = "sui_extensions"
-source = { local = "../sui_extensions" }
+source = { git = "https://github.com/yvonnezhangc/stablecoin-sui.git", rev = "testnet", subdir = "packages/sui_extensions" }
 
 dependencies = [
   { name = "Sui" },
